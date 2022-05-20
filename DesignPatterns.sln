@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatternsImplementation", "DesignPatternsImplementation\DesignPatternsImplementation.csproj", "{04A2B8D4-6526-4661-B4F6-A48CB154AF73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatternsTest", "DesignPatternsTest\DesignPatternsTest.csproj", "{D5C2CB1A-A6BA-43ED-8DB5-AFC032CE48FA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{04A2B8D4-6526-4661-B4F6-A48CB154AF73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04A2B8D4-6526-4661-B4F6-A48CB154AF73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04A2B8D4-6526-4661-B4F6-A48CB154AF73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04A2B8D4-6526-4661-B4F6-A48CB154AF73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5C2CB1A-A6BA-43ED-8DB5-AFC032CE48FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5C2CB1A-A6BA-43ED-8DB5-AFC032CE48FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5C2CB1A-A6BA-43ED-8DB5-AFC032CE48FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5C2CB1A-A6BA-43ED-8DB5-AFC032CE48FA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
