@@ -1,28 +1,23 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using DesignPatternsImplementation.StrategyPattern;
-using Moq;
 using Xunit;
 
-namespace DesignPatternsTest
+namespace DesignPatternsTest;
+
+public class StrategyPatternTest
 {
-    public class StrategyPatternTest
+    private readonly IPhotoShare _photoShare;
+        
+    public StrategyPatternTest()
     {
-        private readonly IPhotoShare _photoShare;
+        _photoShare = new PhotoShareBySocialMedia();
+    }
         
-        public StrategyPatternTest()
-        {
-            _photoShare = new PhotoShareBySocialMedia();
-        }
-        
-        [Fact]
-        public void Use_Photo_Share_By_Email()
-        {
-            var cameraPlusApp = new CameraPlusApp(_photoShare);
-            cameraPlusApp.Save();
-            // Assert.True(true);
-        }
+    [Fact]
+    public void Use_Photo_Share_By_Social_Media()
+    {
+        var cameraPlusApp = new CameraPlusApp(_photoShare);
+        var actual = cameraPlusApp.SharePhoto();
+        const string expected = "Share photo by social media";
+        Assert.Equal(actual, expected);
     }
 }

@@ -1,7 +1,6 @@
-namespace DesignPatternsImplementation.StrategyPattern
+namespace DesignPatternsImplementation.StrategyPattern;
+
+public class PhotoShareBySocialMedia : IPhotoShare
 {
-    public class PhotoShareBySocialMedia : IPhotoShare
-    {
-        public void Share() => System.Console.WriteLine("Share photo by social media");
-    }
+    public string Share() => "Share photo by social media";
 }

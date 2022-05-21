@@ -1,7 +1,6 @@
-namespace DesignPatternsImplementation.StrategyPattern
+namespace DesignPatternsImplementation.StrategyPattern;
+
+public interface IPhotoShare
 {
-    public interface IPhotoShare
-    {
-        void Share();
-    }
+    string Share();
 }

@@ -1,11 +1,10 @@
-namespace DesignPatternsImplementation.StrategyPattern
-{
-    public class BasicCameraApp : PhoneCameraApp
-    {
-        public BasicCameraApp(IPhotoShare photoShare) : base(photoShare)
-        {
-        }
+namespace DesignPatternsImplementation.StrategyPattern;
 
-        public override void Edit() => System.Console.WriteLine("Editing with basic camera app");
+public class BasicCameraApp : PhoneCameraApp
+{
+    public BasicCameraApp(IPhotoShare photoShare) : base(photoShare)
+    {
     }
+
+    public override string Edit() => "Editing with basic camera app";
 }
