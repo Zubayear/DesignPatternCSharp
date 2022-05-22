@@ -1,6 +1,7 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=254c6a66_002Da29d_002D4520_002D9360_002Debe6d541a441/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Should_Return_Spin_Rotors_And_TakeOff" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=ebc7aed3_002D15f2_002D4b90_002D8905_002D022a48dea1cb/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Should_Return_Updated_WeatherInfo" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
   &lt;TestAncestor&gt;
-    &lt;TestId&gt;xUnit::D5C2CB1A-A6BA-43ED-8DB5-AFC032CE48FA::net6.0::DesignPatternsTest.AdapterPatternTest.Should_Return_Spin_Rotors_And_TakeOff&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::D5C2CB1A-A6BA-43ED-8DB5-AFC032CE48FA::net6.0::DesignPatternsTest.ObserverPatternTest.Should_Return_Updated_WeatherInfo&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::D5C2CB1A-A6BA-43ED-8DB5-AFC032CE48FA::net6.0::DesignPatternsTest.DecoratorPatternTest.Calculate_Cost_For_CS_With_Music&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
